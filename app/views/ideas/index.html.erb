@@ -1,0 +1,14 @@
+<h3>Hi <%= current_user.name %>!</h3>
+
+<form method="POST" action="/ideas">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <!-- <input type="hidden" name="_method" value="PUT"> -->
+    <input type="text" name="ideas[content]">
+    <input type="submit" value="Idea!">
+</form>
+<form method="POST" action="/ideas">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<h3><%= current_user.name %> says:</h3>
+<a href="#"></a>
+<a href="/users/<%= current_user.name %>" data-method="DELETE" data-confirm = "Are you sure you want to delete your idea?">Delete Idea</a>
+</form>

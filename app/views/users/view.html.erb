@@ -1,0 +1,10 @@
+<form action="/users/<%= @user.id %>" method="POST">
+    <fieldset>
+    <legend><h1>Profile</h1></legend>
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="hidden" name="_method" value="PUT">
+    <input type="text" name="user[name]" placeholder="Name" value="<%= @user.name %>"><br><br>
+    <input type="text" name="user[alias]" placeholder="Alias" value="<%= @user.alias %>"><br><br>
+    <input type="text" name="user[email]" placeholder="Email" value="<%= @user.email %>"><br><br>
+</fieldset>
+</form><br><br>

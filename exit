@@ -1,0 +1,21 @@
++----+----------+--------+------------------+------------------------------------------------------------+-------------------------+-------------------------+
+| id | name     | alias  | email            | password_digest                                            | created_at              | updated_at              |
++----+----------+--------+------------------+------------------------------------------------------------+-------------------------+-------------------------+
+| 1  | Fernando | Fer    | fer@gmail.com    | $2a$10$eSTOCg7uEvyHCrS6mt.4qu9QpqVNdgRBRwdvdfI5QKE9.XEB... | 2017-06-26 21:14:44 UTC | 2017-06-26 21:14:44 UTC |
+| 2  | Fer      | ferr   | fer1@gmail.com   | $2a$10$99Cwh..bGjaAOZ2279pZGuf.XGS1U5xWWjy3j7pBZLz7l/Eu... | 2017-06-26 21:17:16 UTC | 2017-06-26 21:17:16 UTC |
+| 3  | Andres   | Andre  | andres@gmail.com | $2a$10$gVVjTh3vOpwX42Fs3FN8heC.e.OcftUWZhB4r0XtGQBmxX0d... | 2017-06-26 21:28:04 UTC | 2017-06-26 21:28:04 UTC |
+| 4  | Abie     | ab     | ab@gmail.com     | $2a$10$k.u6TTmoY4FU/0/xJl4WVejtzUAvnlLCOzt1Ll9N1KenzkIl... | 2017-06-26 21:42:01 UTC | 2017-06-26 21:42:01 UTC |
+| 5  | Doc      | doc    | doc@gmail.com    | $2a$10$L4NESptaNFeDwm1/q9WWAuyi1ehJTz/TarQOsmmdEpe0QQyM... | 2017-06-26 21:50:16 UTC | 2017-06-26 21:50:16 UTC |
+| 6  | red      | re     | red@gmail.com    | $2a$10$V1FbkdHa6OC2.KRP1TAV0O/Gt/1kPc8Nw/nvU1MwaqmcWSrh... | 2017-06-26 21:51:45 UTC | 2017-06-26 21:51:45 UTC |
+| 7  | res      | red    | res@gmail.com    | $2a$10$3vNNr.d.BxITkgCNSJdEje3gsBmGtTydGC.zRKu.1SQszd.F... | 2017-06-26 21:52:40 UTC | 2017-06-26 21:52:40 UTC |
+| 8  | Ter      | Te     | te@gmail.com     | $2a$10$mzl.sXpB07b0pPPN2lG9PeeRF.1khJlHtuPy9TDIuWs3weRm... | 2017-06-26 21:55:49 UTC | 2017-06-26 21:55:49 UTC |
+| 9  | Per      | pe     | pe@gmail.com     | $2a$10$0Hws/A6SPDk3glN5SAgzn.eouLdWxe5pqnj7D6ZpyJT3Vq6D... | 2017-06-26 21:59:27 UTC | 2017-06-26 21:59:27 UTC |
+| 10 | Dir      | di     | di@gmail.com     | $2a$10$32KORa7UEaMdiBAmGeXoneoBClZeDQk..RATvg0dmM2TTlh6... | 2017-06-26 22:05:08 UTC | 2017-06-26 22:05:08 UTC |
+| 11 | Jo       | j      | jo@gmail.com     | $2a$10$XoPH.BfNeMJ25dYReD0yK.K6PRP0.negR5kFNAnT7J5XIN8c... | 2017-06-26 22:07:35 UTC | 2017-06-26 22:07:35 UTC |
+| 12 | Jos      | jo     | jos@gmail.com    | $2a$10$plFSU9YF.5jImFPSpJYdhen7gdJE4C6YUfXSpyewRyYBux9/... | 2017-06-26 22:09:48 UTC | 2017-06-26 22:09:48 UTC |
+| 13 | Josd     | joe    | joe@gmail.com    | $2a$10$eE34wtZ.4P1iEpV8101uNOwBqbrQK0wqFP5tBkqMg9zwvjSJ... | 2017-06-26 22:13:43 UTC | 2017-06-26 22:13:43 UTC |
+| 14 | Greg     | G      | greg@gmail.com   | $2a$10$78DFleyiJi97.1oEmRzkUO9Sw5DUaZYQocoP8y1yudoi/KXH... | 2017-06-26 22:14:19 UTC | 2017-06-26 22:14:19 UTC |
+| 15 | Andres   | Andres | and@gmail.com    | $2a$10$q0Aw9yGm8nUMuZt2v0vyKObzUcOAgyTCGKb7xTbhvd4j.1AT... | 2017-06-28 22:09:54 UTC | 2017-06-28 22:09:54 UTC |
+| 16 | Charlie  | Char   | char@gmail.com   | $2a$10$IuNEMDShFV//WjFFoZFZrO.gfv8QJ7qQIYQChuo3L.YfNHei... | 2017-06-29 17:43:12 UTC | 2017-06-29 17:43:12 UTC |
++----+----------+--------+------------------+------------------------------------------------------------+-------------------------+-------------------------+
+16 rows in set

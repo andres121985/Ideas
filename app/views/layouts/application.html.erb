@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ideas</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<% if flash[:errors] %>
+	<% flash[:errors].each do |e|%>
+	<p style="color: red;"><%= e %></p>
+	<% end %>
+    <%end%>
+
+<% if current_user %>
+<a href="/ideas">Bright Ideas</a>  |  <a href="/logout">Logout</a>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>
